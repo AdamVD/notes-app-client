@@ -16,7 +16,7 @@ export default function Login(props) {
 
     try {
         await Auth.signIn(email, password);
-        alert("Logged in");  // TODO redirect back home
+        props.userHasAuthenticated(true);
     } catch (e) {
         alert(e.message);  // TODO provide an integrated error message
     }
