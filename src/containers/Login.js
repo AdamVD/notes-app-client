@@ -15,10 +15,11 @@ export default function Login(props) {
     event.preventDefault();
 
     try {
-        await Auth.signIn(email, password);
-        props.userHasAuthenticated(true);
+      await Auth.signIn(email, password);
+      props.userHasAuthenticated(true);
+      props.history.push('/');
     } catch (e) {
-        alert(e.message);  // TODO provide an integrated error message
+      alert(e.message);  // TODO provide an integrated error message
     }
   }
 
