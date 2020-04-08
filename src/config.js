@@ -5,7 +5,7 @@ const dev = {
   },
   apiGateway: {
     REGION: "us-east-2",
-    URL: "http://notes-api.adamdelrosso.me/dev"
+    URL: "https://notes-api.adamdelrosso.me/dev"
   },
   cognito: {
     REGION: "us-east-2",
@@ -22,7 +22,7 @@ const prod = {
   },
   apiGateway: {
     REGION: "us-east-2",
-    URL: "http://notes-api.adamdelrosso.me/prod"
+    URL: "https://notes-api.adamdelrosso.me/prod"
   },
   cognito: {
     REGION: "us-east-2",
