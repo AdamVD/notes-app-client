@@ -18,7 +18,7 @@ const dev = {
 const prod = {
   s3: {
     REGION: "us-east-2",
-    BUCKET: "YOUR_PROD_S3_UPLOADS_BUCKET_NAME"
+    BUCKET: "notes-app-2-api-prod-attachmentsbucket-1crm0gl7qvaha"
   },
   apiGateway: {
     REGION: "us-east-2",
